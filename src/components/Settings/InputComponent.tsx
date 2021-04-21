@@ -15,7 +15,7 @@ const InputComponent = () => {
 					borderRadius: 4,
 				}}
 			/>
-			<div style={{ width: 300 }}>
+			<div style={{ width: 350 }}>
 				<Input
 					icon={<SearchIcon />}
 					placeholder="Search for a navigation entry"
