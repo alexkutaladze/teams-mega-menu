@@ -6,7 +6,7 @@ const SettingsFooter = () => {
 		<Flex
 			gap="gap.small"
 			hAlign="end"
-			style={{ position: "absolute", right: 20, bottom: 50 }}
+			style={{ position: "absolute", right: 20, bottom: 70 }}
 		>
 			<Button content="Discard" style={{ borderRadius: 4 }} />
 			<Button content="Save" primary style={{ borderRadius: 4 }} />
