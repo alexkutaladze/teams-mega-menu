@@ -1,5 +1,5 @@
 import { AddIcon, SearchIcon } from "@fluentui/react-icons-northstar";
-import { Flex, Button, Input, Segment } from "@fluentui/react-northstar";
+import { Button, Flex, Input } from "@fluentui/react-northstar";
 import React from "react";
 
 const InputComponent = () => {
