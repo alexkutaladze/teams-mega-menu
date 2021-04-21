@@ -6,8 +6,6 @@ import MegaMenu from "../MegaMenu/MegaMenu";
 const MenuExampleWithIcons = () => {
 	const [megaMenuActive, setMegaMenuActive] = useState(false);
 	const [megaMenuPosition, setMegaMenuPosition] = useState(0);
-	const [direction, setDirection] = useState<"LEFT" | "RIGHT">("RIGHT");
-
 	const activateMegaMenu = (index: number) => {
 		setMegaMenuActive(true);
 		setMegaMenuPosition(52 + (index - 1) * 111);
@@ -23,7 +21,6 @@ const MenuExampleWithIcons = () => {
 			key: "item1",
 			onMouseEnter: () => {
 				activateMegaMenu(1);
-				setDirection("RIGHT");
 			},
 		},
 		{
@@ -31,7 +28,6 @@ const MenuExampleWithIcons = () => {
 			key: "item2",
 			onMouseEnter: () => {
 				activateMegaMenu(2);
-				setDirection("RIGHT");
 			},
 		},
 		{
@@ -39,7 +35,6 @@ const MenuExampleWithIcons = () => {
 			key: "item3",
 			onMouseEnter: () => {
 				activateMegaMenu(3);
-				setDirection("RIGHT");
 			},
 		},
 		{
@@ -47,7 +42,6 @@ const MenuExampleWithIcons = () => {
 			key: "item4",
 			onMouseEnter: () => {
 				activateMegaMenu(4);
-				setDirection("LEFT");
 			},
 		},
 		{
@@ -55,7 +49,6 @@ const MenuExampleWithIcons = () => {
 			key: "item5",
 			onMouseEnter: () => {
 				activateMegaMenu(5);
-				setDirection("LEFT");
 			},
 		},
 		{
@@ -71,7 +64,6 @@ const MenuExampleWithIcons = () => {
 				<MegaMenu
 					position={megaMenuPosition}
 					onExit={() => setMegaMenuActive(false)}
-					direction={direction}
 				/>
 			)}
 		</>

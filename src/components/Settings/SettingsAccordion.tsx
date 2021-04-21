@@ -66,7 +66,7 @@ const AccordionComponent = () => {
 			style={{
 				paddingLeft: 10,
 				color: "#666",
-				outline: "none",
+				fontSize: 18,
 			}}
 			exclusive
 		/>
