@@ -16,7 +16,7 @@ const MenuExampleWithIcons = () => {
 	const items = [
 		{
 			icon: <MenuIcon />,
-			key: "onedrive",
+			key: "menu",
 		},
 		{
 			content: "Menuitem 1",
@@ -60,7 +60,7 @@ const MenuExampleWithIcons = () => {
 		},
 		{
 			icon: <MoreIcon />,
-			key: "More",
+			key: "more",
 		},
 	];
 
