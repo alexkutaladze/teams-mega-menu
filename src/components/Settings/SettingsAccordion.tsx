@@ -65,8 +65,7 @@ const AccordionComponent = () => {
 			panels={panels}
 			style={{
 				paddingLeft: 10,
-				color: "#777",
-				height: "55%",
+				color: "#666",
 				outline: "none",
 			}}
 			exclusive

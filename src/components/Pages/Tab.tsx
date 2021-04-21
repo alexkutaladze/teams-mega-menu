@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Menu } from "@fluentui/react-northstar";
 import { MenuIcon, MoreIcon } from "@fluentui/react-icons-northstar";
-import MegaMenu from "./MegaMenu/MegaMenu";
+import MegaMenu from "../MegaMenu/MegaMenu";
 
 const MenuExampleWithIcons = () => {
 	const [megaMenuActive, setMegaMenuActive] = useState(false);

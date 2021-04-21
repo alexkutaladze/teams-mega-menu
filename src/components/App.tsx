@@ -5,10 +5,10 @@ import "./App.css";
 import * as microsoftTeams from "@microsoft/teams-js";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Privacy from "./Privacy";
-import TermsOfUse from "./TermsOfUse";
-import Tab from "./Tab";
-import Settings from "./Settings";
+import Privacy from "./Pages/Privacy";
+import TermsOfUse from "./Pages/TermsOfUse";
+import Tab from "./Pages/Tab";
+import Settings from "./Pages/Settings";
 
 /**
  * The main app which handles the initialization and routing
